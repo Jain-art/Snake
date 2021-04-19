@@ -113,6 +113,18 @@ MonoBehaviour:
   z_offset: 0.5
   TailPrefab: {fileID: 8836556164487468397, guid: 6f967c8bf91c950458e09011487ec5aa,
     type: 3}
+  XSize: 8.5
+  ZSize: 8
+  curPos: {x: 0, y: 0, z: 0}
+  mushroomPrefab: {fileID: 7172484602906848246, guid: 3e81aeb7fb9b57a45b0d903b097807a1,
+    type: 3}
+  curMushroom: {fileID: 0}
+  MiragePrefab: {fileID: 3079602456741863186, guid: a06b1e1f36f3264468a4f3a91ca6e56e,
+    type: 3}
+  curMirage: {fileID: 0}
+  foodPrefab: {fileID: 2928280426836911409, guid: c69a07f5a417b9941a667d5ba2a5411b,
+    type: 3}
+  curFood: {fileID: 0}
 --- !u!54 &-773145017077105866
 Rigidbody:
   m_ObjectHideFlags: 0

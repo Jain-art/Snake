@@ -4,12 +4,12 @@ using UnityEngine;
 
 public class MirageFood : MonoBehaviour
 {
-    oid OnTriggerEnter(Collider other)
+    void OnTriggerEnter(Collider other)
     {
         if (other.CompareTag("SnakeMain"))
         {
-            other.GetComponent<FoodGeneration>().AddNewFood();
             Destroy(gameObject);
+           
         }
     }
 }

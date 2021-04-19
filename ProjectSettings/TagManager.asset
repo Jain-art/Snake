@@ -3,7 +3,14 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - Food
+  - SnakeMain
+  - MirageMushroom
+  - MirageFood
+  - Bord
+  - MovingFood
+  - "\u041Ebstacle"
   layers:
   - Default
   - TransparentFX
